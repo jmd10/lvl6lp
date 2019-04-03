@@ -1,0 +1,27 @@
+
+{% load static %}
+
+{% block head %}
+    <title>lvl6</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/style.css' %}">
+{% endblock %}
+
+{% block content %}
+    <header class="header">
+        <div class="header-text">Sign in via:</div>
+
+    </header>
+    <section class="landing-section landing-main">
+      <img src="mountain.jpg" width="120" height="90" alt="Mountain">
+        <div class="landing-section-content">
+          <p class="landing-main-text">
+              Creating a future environment within which the human
+              soul is destined to flourish.
+                <br>
+                Technology for human flourishing
+            </p>
+        </div>
+    </section>
+    <section class="landing-section landing-features"></section>
+
+{% endblock %}
